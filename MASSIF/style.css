@@ -1,0 +1,286 @@
+@font-face {
+  font-family: Playfair;
+  src: url(fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  flex-wrap: wrap;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.container-1 {
+  background-image: url(Images/header.jpg);
+  background-size: cover;
+  height: 450px;
+}
+.container-1 .liste {
+  display: flex;
+  padding: 20px;
+  align-items: first baseline;
+  justify-content: center;
+  left: 200px;
+  text-transform: uppercase;
+  word-spacing: 80px;
+}
+.container-1 a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+.container-1 .logo {
+  display: flex;
+  align-items: center;
+  justify-content: first baseline;
+  margin-top: -50px;
+  margin-left: 100px;
+}
+.container-1 .bienvenue {
+  display: flex;
+  justify-content: center;
+  padding-top: 4%;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 100;
+  letter-spacing: 10px;
+  font-size: 50px;
+}
+.container-1 h1 {
+  font-weight: lighter;
+}
+.container-1 .etoiles {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+.container-1 .p-1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  color: white;
+  text-align: center;
+  font-size: large;
+}
+.container-2 .marge-b {
+  background-color: #ffffff;
+  width: 1500px;
+  height: 150px;
+}
+.container-2 .img-2 {
+  display: flex;
+  align-items: baseline;
+  margin-left: 300px;
+  height: 550px;
+}
+.container-2 .bvn {
+  font-family: Playfair;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -550px;
+  margin-right: -400px;
+  font-size: 47px;
+}
+.container-2 .p-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-right: -600px;
+  font-size: 20px;
+}
+.container-2 .bouton-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100px;
+  margin-left: 130px;
+  margin-top: 50px;
+}
+.container-2 a {
+  font-family: Playfair;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+.container-2 .b1 {
+  align-items: center;
+  height: 40px;
+  width: 200px;
+  text-align: left;
+  padding-left: 15px;
+  background-color: white;
+}
+.container-2 .ptlogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -63px;
+  margin-left: 950px;
+}
+.simpson {
+  margin-top: 50px;
+  height: 100px;
+}
+.contenair-3 {
+  background-color: #E5F5E5;
+  height: 650px;
+}
+.contenair-3 .chambre {
+  display: flex;
+  justify-content: center;
+}
+.contenair-3 h2 {
+  font-family: Playfair;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: baseline;
+  font-size: 47px;
+}
+.contenair-3 .photochambre {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  column-gap: 30px;
+  align-items: center;
+}
+.contenair-3 .p-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  font-size: 20px;
+  text-align: center;
+  color: #6185A1;
+}
+.contenair-3 .nomchambre {
+  display: flex;
+  justify-content: center;
+  column-gap: 200px;
+  padding-top: 10px;
+}
+.contenair-3 .double {
+  font-family: Playfair;
+  padding-left: 30px;
+}
+.contenair-3 .solo {
+  font-family: Playfair;
+  padding-left: 70px;
+}
+.contenair-3 .famille {
+  font-family: Playfair;
+}
+.marge-3 {
+  display: flex;
+  height: 100px;
+}
+.prix {
+  display: flex;
+  justify-content: center;
+  column-gap: 240px;
+  color: #3FB4BE;
+  font-weight: 700;
+}
+.p40 {
+  padding-left: 30px;
+}
+.p90 {
+  padding-left: 20px;
+}
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 47px;
+  margin-top: 35px;
+  font-family: Playfair;
+}
+.contenair-4 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  column-gap: 20px;
+}
+.contenair-4 .services {
+  justify-content: center;
+  align-items: center;
+}
+.contenair-4 .carre {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  column-gap: 30px;
+  align-items: center;
+  height: 350px;
+  width: 350px;
+  background-color: white;
+  border: 2px solid #3FB4BE;
+  margin-top: 150px;
+  border-radius: 0 0 0 20px;
+  position: relative;
+}
+.contenair-4 .it-1 {
+  font-size: 40px;
+  font-family: Playfair;
+  font-weight: inherit;
+  position: absolute;
+  top: 80px;
+  left: 20px;
+}
+.contenair-4 .it-2 {
+  font-size: 40px;
+  font-family: Playfair;
+  top: 80px;
+  left: 20px;
+  position: absolute;
+  font-weight: inherit;
+}
+.contenair-4 .it-3 {
+  font-size: 40px;
+  font-family: Playfair;
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  font-weight: inherit;
+}
+.contenair-4 .txt-1 {
+  font-size: 16px;
+  position: absolute;
+  left: 20px;
+  top: 160px;
+}
+.contenair-4 .txt-2 {
+  font-size: 16px;
+  position: absolute;
+  left: 20px;
+  top: 160px;
+}
+.contenair-4 .txt-3 {
+  font-size: 16px;
+  position: absolute;
+  left: 20px;
+  top: 160px;
+}
+.contenair-4 .piscine {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+.contenair-4 .wifi {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+.contenair-4 .toque {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
