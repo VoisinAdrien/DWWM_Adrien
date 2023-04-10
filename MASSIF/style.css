@@ -284,3 +284,197 @@ body {
   top: 30px;
   left: 20px;
 }
+.contenair-5 {
+  margin-top: 100px;
+  background-image: url(Images/hebergement.jpg);
+  height: 400px;
+  width: 1900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contenair-5 h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 45%;
+  top: 303%;
+  font-size: x-large;
+  letter-spacing: 3px;
+  color: white;
+  text-transform: uppercase;
+}
+.contenair-5 h2 {
+  position: absolute;
+  left: 41.5%;
+  top: 308%;
+  font-size: xx-large;
+  letter-spacing: 3px;
+  color: white;
+  text-transform: uppercase;
+}
+.contenair-5 button {
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  left: 45%;
+  top: 315%;
+  background-color: #28ABB9;
+  box-shadow: 0px 4px 4px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+}
+.contenair-5 a {
+  position: absolute;
+  width: 200px;
+  height: 47px;
+  left: 600px;
+  top: 2550px;
+}
+.contenair-5 .bouton2 {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.contenair-5 .container-6 {
+  margin-top: 150px;
+}
+.contenair-5 .container-6 .dertitre {
+  display: flex;
+  justify-content: center;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 47px;
+  line-height: 63px;
+}
+.contenair-5 .container-6 .derp {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 25px;
+  color: #567D9B;
+}
+.contenair-5 .container-6 .doublerec {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  margin-top: 120px;
+  margin-bottom: 200px;
+}
+.contenair-5 .container-6 .doublerec .rect1 {
+  display: flex;
+  margin-left: 163px;
+  width: 521px;
+  height: 269px;
+  background: #A8DDA8;
+  border-radius: 0px 0px 0px 25px;
+}
+.contenair-5 .container-6 .doublerec .rect1 .edward {
+  display: flex;
+  margin-left: 40px;
+  margin-top: -85px;
+  width: 136px;
+  height: 136px;
+}
+.contenair-5 .container-6 .doublerec .rect1 .guimh1 {
+  display: flex;
+  width: 65px;
+  height: 47px;
+  margin-top: 50px;
+  margin-left: -160px;
+}
+.contenair-5 .container-6 .doublerec .rect1 .p-11 {
+  position: absolute;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  margin-top: 110px;
+  padding-left: -65px;
+  text-align: left;
+  font-style: normal;
+  left: 181px;
+}
+.contenair-5 .container-6 .doublerec .rect1 .mikewil {
+  position: absolute;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #567D9B;
+  padding-top: 220px;
+  margin-right: 200px;
+  left: 181px;
+}
+.contenair-5 .container-6 .doublerec .rect1 .guimb1 {
+  position: absolute;
+  width: 57.97px;
+  height: 47px;
+  left: 597px;
+  margin-top: 210px;
+}
+.contenair-5 .container-6 .doublerec .rect2 {
+  display: flex;
+  margin-left: 163px;
+  width: 521px;
+  height: 269px;
+  background: #A8DDA8;
+  border-radius: 0px 0px 25px 0px;
+}
+.contenair-5 .container-6 .doublerec .rect2 .mike {
+  display: flex;
+  margin-left: 40px;
+  margin-top: -85px;
+  width: 136px;
+  height: 136px;
+}
+.contenair-5 .container-6 .doublerec .rect2 .guimh2 {
+  position: absolute;
+  width: 65px;
+  height: 47px;
+  left: 885px;
+  margin-top: 50px;
+}
+.contenair-5 .container-6 .doublerec .rect2 .p-22 {
+  position: absolute;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  margin-top: 110px;
+  padding-left: -65px;
+  text-align: left;
+  font-style: normal;
+  left: 885px;
+}
+.contenair-5 .container-6 .doublerec .rect2 .edwb {
+  position: absolute;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #567D9B;
+  padding-top: 220px;
+  margin-right: 200px;
+  left: 885px;
+}
+.contenair-5 .container-6 .doublerec .rect2 .guimb2 {
+  position: absolute;
+  width: 57.97px;
+  height: 47px;
+  left: 1305px;
+  margin-top: 210px;
+}
