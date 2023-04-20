@@ -7,7 +7,8 @@ while ($nombre < 10 || $nombre > 20) {
 
     if ($nombre < 10) {
         echo "Plus grand !\n";
-    } elseif ($nombre > 20) {
+    } 
+    if ($nombre > 20) {
         echo "Plus petit !\n";
     }
 }
